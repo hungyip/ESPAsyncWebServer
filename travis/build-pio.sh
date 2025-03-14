@@ -17,7 +17,7 @@ esp32dev)
   python -m platformio lib -g install https://github.com/me-no-dev/AsyncTCP.git
   ;;
 esp12e)
-  python -m platformio lib -g install https://github.com/me-no-dev/ESPAsyncTCP.git || true
+  python -m platformio lib -g install https://github.com/hungyip/ESPAsyncTCP.git || true
   ;;
 esac
 if [ $? -ne 0 ]; then exit 1; fi
